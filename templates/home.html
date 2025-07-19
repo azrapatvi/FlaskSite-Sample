@@ -1,0 +1,128 @@
+{% extends "base.html"%}
+
+{% block title %}Sample Demo Site{% endblock %}
+
+{% block content %}
+<main>
+  <h1 class="visually-hidden">Sample Flask + Bootstrap Website</h1>
+
+  <div class="px-4 py-5 my-5 text-center">
+    <h1 class="display-5 fw-bold text-body-emphasis">This is a Sample Website using Flask & Bootstrap</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">
+        ⚠️ This site is for <strong>demonstration purposes only</strong>. It was built using the Flask framework along with Bootstrap for layout and design.
+        All text, buttons, and forms are placeholders and not part of a real service or company.
+      </p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button type="button" class="btn btn-dark btn-lg px-4 gap-3">Fake Primary</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Fake Secondary</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold text-body-emphasis">Sample Screenshot</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">
+        This section is part of a sample layout to help you visualize a web page using Bootstrap in a Flask app.
+        All content below is static and non-functional.
+      </p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <button type="button" class="btn btn-dark btn-lg px-4 me-sm-3">Sample Action</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Another Action</button>
+      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height: 30vh;">
+      <div class="container px-5">
+        <img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Sample image" width="700" height="500" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="d-block mx-lg-auto img-fluid" alt="Sample Image" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Sample Layout with Image</h1>
+        <p class="lead">This layout demonstrates how you might include visual content in a real site using Flask and Bootstrap. Here, it’s purely illustrative.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-dark btn-lg px-4 me-md-2">Try Demo</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Placeholder</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+    <div class="row align-items-center g-lg-5 py-5">
+      <div class="col-lg-7 text-center text-lg-start">
+        <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Mock Sign-Up Form</h1>
+        <p class="col-lg-10 fs-4">This is a sample sign-up form built with Flask templates and Bootstrap. Submitting it does nothing. It’s only for design purposes.</p>
+      </div>
+      <div class="col-md-10 mx-auto col-lg-5">
+        <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>
+          <div class="checkbox mb-3">
+            <label>
+              <input type="checkbox" value="remember-me"> Remember me (simulated)
+            </label>
+          </div>
+          <button class="w-100 btn btn-lg btn-dark" type="button">Fake Sign Up</button>
+          <hr class="my-4">
+          <small class="text-body-secondary">No real account will be created. This is just for show.</small>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="container my-5">
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+        <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Showcase Block</h1>
+        <p class="lead">This section is a sample to showcase Bootstrap layout in a Flask web app. It is not connected to any real backend or logic.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+          <button type="button" class="btn btn-dark btn-lg px-4 me-md-2 fw-bold">Demo Button</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Placeholder Button</button>
+        </div>
+      </div>
+      <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+        <img class="rounded-lg-3" src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Showcase" width="720">
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="bg-dark text-secondary px-4 py-5 text-center">
+    <div class="py-5">
+      <h1 class="display-5 fw-bold text-white">Dark Themed Section</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="fs-5 mb-4">This dark mode section shows an example of Bootstrap styling inside a Flask-rendered page. There’s no real data or backend functionality.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Learn More</button>
+          <button type="button" class="btn btn-outline-light btn-lg px-4">Explore</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider mb-0"></div>
+</main>
+{% endblock %}
